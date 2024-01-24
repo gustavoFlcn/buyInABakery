@@ -15,6 +15,7 @@
 		D379207A2B608A130017C678 /* buyInABakeryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37920792B608A130017C678 /* buyInABakeryTests.swift */; };
 		D37920842B608A130017C678 /* buyInABakeryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37920832B608A130017C678 /* buyInABakeryUITests.swift */; };
 		D37920862B608A130017C678 /* buyInABakeryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37920852B608A130017C678 /* buyInABakeryUITestsLaunchTests.swift */; };
+		D37920982B608B290017C678 /* Oneboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37920972B608B290017C678 /* Oneboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D379207F2B608A130017C678 /* buyInABakeryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = buyInABakeryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37920832B608A130017C678 /* buyInABakeryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buyInABakeryUITests.swift; sourceTree = "<group>"; };
 		D37920852B608A130017C678 /* buyInABakeryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buyInABakeryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D37920972B608B290017C678 /* Oneboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oneboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				D37920642B608A0F0017C678 /* buyInABakery */,
+				D37920922B608A850017C678 /* Certificates */,
 				D37920782B608A130017C678 /* buyInABakeryTests */,
 				D37920822B608A130017C678 /* buyInABakeryUITests */,
 				D37920632B608A0F0017C678 /* Products */,
@@ -97,11 +100,13 @@
 		D37920642B608A0F0017C678 /* buyInABakery */ = {
 			isa = PBXGroup;
 			children = (
+				D37920952B608AFF0017C678 /* View */,
+				D37920962B608B060017C678 /* ViewModel */,
+				D37920942B608AEB0017C678 /* Model */,
 				D37920652B608A0F0017C678 /* buyInABakeryApp.swift */,
 				D37920672B608A0F0017C678 /* ContentView.swift */,
 				D37920692B608A0F0017C678 /* Item.swift */,
 				D379206B2B608A120017C678 /* Assets.xcassets */,
-				D379206D2B608A120017C678 /* buyInABakery.entitlements */,
 				D379206E2B608A120017C678 /* Preview Content */,
 			);
 			path = buyInABakery;
@@ -130,6 +135,36 @@
 				D37920852B608A130017C678 /* buyInABakeryUITestsLaunchTests.swift */,
 			);
 			path = buyInABakeryUITests;
+			sourceTree = "<group>";
+		};
+		D37920922B608A850017C678 /* Certificates */ = {
+			isa = PBXGroup;
+			children = (
+				D379206D2B608A120017C678 /* buyInABakery.entitlements */,
+			);
+			path = Certificates;
+			sourceTree = "<group>";
+		};
+		D37920942B608AEB0017C678 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D37920952B608AFF0017C678 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D37920972B608B290017C678 /* Oneboarding.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D37920962B608B060017C678 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37920982B608B290017C678 /* Oneboarding.swift in Sources */,
 				D37920682B608A0F0017C678 /* ContentView.swift in Sources */,
 				D379206A2B608A0F0017C678 /* Item.swift in Sources */,
 				D37920662B608A0F0017C678 /* buyInABakeryApp.swift in Sources */,
