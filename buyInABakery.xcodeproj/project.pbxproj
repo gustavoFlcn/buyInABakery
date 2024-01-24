@@ -80,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				D37920642B608A0F0017C678 /* buyInABakery */,
-				D37920922B608A850017C678 /* Certificates */,
 				D37920782B608A130017C678 /* buyInABakeryTests */,
 				D37920822B608A130017C678 /* buyInABakeryUITests */,
 				D37920632B608A0F0017C678 /* Products */,
@@ -107,6 +106,7 @@
 				D37920672B608A0F0017C678 /* ContentView.swift */,
 				D37920692B608A0F0017C678 /* Item.swift */,
 				D379206B2B608A120017C678 /* Assets.xcassets */,
+				D379206D2B608A120017C678 /* buyInABakery.entitlements */,
 				D379206E2B608A120017C678 /* Preview Content */,
 			);
 			path = buyInABakery;
@@ -135,14 +135,6 @@
 				D37920852B608A130017C678 /* buyInABakeryUITestsLaunchTests.swift */,
 			);
 			path = buyInABakeryUITests;
-			sourceTree = "<group>";
-		};
-		D37920922B608A850017C678 /* Certificates */ = {
-			isa = PBXGroup;
-			children = (
-				D379206D2B608A120017C678 /* buyInABakery.entitlements */,
-			);
-			path = Certificates;
 			sourceTree = "<group>";
 		};
 		D37920942B608AEB0017C678 /* Model */ = {
